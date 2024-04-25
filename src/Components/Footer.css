@@ -1,0 +1,18 @@
+.footer {
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% -240px);
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        font-size: 12px;
+        padding: 12px;
+    }
+}
